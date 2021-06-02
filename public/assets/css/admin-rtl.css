@@ -1,0 +1,24 @@
+body,
+#sidebar-menu>ul>li>a
+{
+   font-family: 'Almarai', sans-serif !important;
+}
+.w-30
+{
+    width: 30px;
+}
+.h-30
+{
+    height: 30px;
+}
+
+.navbar-custom .topnav-menu .nav-link,
+.dropdown-item
+{
+    color: #000000;
+    font-size: 16px;
+}
+
+.navbar-custom .topnav-menu .nav-link, .dropdown-item {
+    direction: rtl;
+}

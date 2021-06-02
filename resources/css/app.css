@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content {
+    /* background: url("/../images/body-bg-final.jpg") no-repeat center center fixed;
+    width: 100%;
+    background-size: cover !important;
+    height: 4000px !important; */
+}
+
+.slick-next {
+    right: 50px !important;
+}
+.slick-prev {
+    left: 30px !important;
+    z-index: 13 !important;
+}
+.slick-prev:before,
+.slick-next:before {
+    font-size: 40px !important;
+}
+/* .programs {
+    background: url("/../images/programs-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+} */
+.reads {
+    background: url("/../images/Quran2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 550px;
+}
+
+.encyclopedia {
+    /* background: url("/../images/encyclopedia-bg.jpg") no-repeat center center
+        fixed;
+    background-size: cover; */
+    height: 600px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    /* padding: 20px; */
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.circle-title {
+    transition: all 1s ease-in-out;
+}
+
+.about-page-about:hover .circle-title {
+    background-color: #1e688c;
+    color:#fff !important;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.about-page-vision:hover .circle-title {
+   background-color: #db2777;
+   color:#fff !important;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.about-page-goals:hover .circle-title {
+    background-color: #db2777;
+    color:#fff !important;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.z--1 {
+    z-index: -1;
+}
+
+
+.z-1 {
+    z-index: 1 !important;
+}
+[x-cloak] {
+    display: none !important;
+}
+.page-title
+{
+    border-right: 7px solid rgb(160, 8, 160);
+    border-bottom: 1px solid rgb(160, 8, 160);
+}
+
+.border-right-purple
+{
+ border-right: 5px solid rgb(160, 8, 160);
+ border-bottom: 1px solid rgb(160, 8, 160);
+}
+.border-right-gray
+{
+ border-right: 7px solid #374151;
+ border-bottom: 1px solid #374151;
+}
+.border-right-yellow
+{
+ border-right: 7px solid #f39b0a;
+ border-bottom: 1px solid #f39b0a;
+}
+.border-right-green
+{
+ border-right: 7px solid #079669;
+ border-bottom: 1px solid #079669;
+}
+.border-right-blue
+{
+ border-right: 7px solid #4367eb;
+ border-bottom: 1px solid #4367eb;
+}
+.border-right-pink
+{
+ border-right: 7px solid #dc2777;
+ border-bottom: 1px solid #dc2777;
+}
+.border-right-blue
+{
+ border-right: 7px solid #1e3a8a;
+ border-bottom: 1px solid #1e3a8a;
+}
+
+.question-icon
+{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}

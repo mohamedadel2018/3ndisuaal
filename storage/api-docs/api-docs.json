@@ -1,0 +1,31 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "3ANDDY SO2AL Api Documentation",
+        "description": "(NOTE) SEND Content-Language in header = one of these valu (ar-en-id) To Localize Api Data",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "api"
+        }
+    ],
+    "paths": {
+        "/test": {
+            "get": {
+                "tags": [
+                    "TEST"
+                ],
+                "description": "List All test",
+                "responses": {
+                    "default": {
+                        "description": "Welcome page"
+                    }
+                }
+            }
+        }
+    },
+    "security": [
+        []
+    ]
+}

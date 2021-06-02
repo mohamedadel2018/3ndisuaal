@@ -1,0 +1,203 @@
+body,
+#sidebar-menu > ul > li > a,
+.page-title-box .page-title,
+.modal-title,
+[class^=swal2],
+h5,
+h3
+{
+    font-family: "Almarai", sans-serif !important;
+}
+
+.w-30 {
+    width: 30px;
+}
+.h-30 {
+    height: 30px;
+}
+
+.navbar-custom .topnav-menu .nav-link,
+.dropdown-item {
+    color: #000000;
+    font-size: 16px;
+}
+.table thead th {
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+    font-size: 16px;
+        background: #645bb1;
+    color: #fff;
+}
+.table th {
+    text-align: center;
+    font-weight: bold;
+    color: #323a46;
+}
+.table td {
+    text-align: center;
+    font-size: 16px;
+    color: #323a46;
+}
+
+.table-hover tbody tr:hover {
+    color: #6c757d;
+    background-color: #675db730;
+}
+.modal-header .close {
+    color: white;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 600px;
+    }
+}
+
+#sidebar-menu>ul>li>a
+{
+    font-size: 16px !important;
+    color: #a8bcd2 !important;
+}
+#sidebar-menu>ul>li>a i
+{
+    font-size: 1.2rem !important;
+}
+
+#sidebar-menu>ul>li>a:active, #sidebar-menu>ul>li>a:focus, #sidebar-menu>ul>li>a:hover
+{
+    color: #fff;
+}
+
+label
+{
+    font-size: 16px !important;
+    color: #323a46;
+}
+
+button,
+.nav-second-level li a, .nav-thrid-level li a
+{
+    font-size: 16px !important;
+}
+
+.form-control
+{
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+    font-size: 16px !important;
+}
+
+.metismenu li.active
+{
+    background-color: #fff;
+    border-bottom: 1px solid #eeeef0;
+    border-top: 1px solid #eeeef0;
+}
+.metismenu li.active a,
+#sidebar-menu>ul>li>a.active,
+.enlarged .left-side-menu #sidebar-menu>ul>li.active:hover>a
+
+{
+    color: #000 !important;
+    background-color:#fff !important;
+}
+.enlarged .left-side-menu #sidebar-menu>ul>li:hover>a
+{
+    color: #fff !important;
+}
+
+.metismenu li.active a:hover
+{
+    color:#675db7 !important;
+}
+
+#sidebar-menu>ul>li>ul i
+{
+    font-size: 16px !important;
+}
+
+.nav-second-level li.active>a.active
+{
+    color:#675db7 !important;
+}
+
+.alert
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.table th {
+    font-size: 16px !important;
+    text-transform: none !important;
+}
+
+.fz-16
+{
+    font-size: 16px !important;
+}
+
+.page-item.active .page-link {
+    background-color: #675db7;
+    border-color: #675db7;
+}
+
+.d--none
+{
+    display:none !important;
+}
+.d--block
+{
+    display: block !important;
+}
+.alert-close-icon
+{
+    cursor: pointer !important;
+}
+
+select.form-control
+{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.cursor-pointer
+{
+    cursor: pointer !important;
+}
+
+.word-file-preview {
+    width: 100px;
+    height: 100px;
+    background: lightgrey;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #222;
+}
+
+.for-icon i
+{
+    font-size:30px;
+}
+.custom-control-label::before,
+.custom-control-label::after
+{
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #675db7 !important;
+    border-color: #675db7 !important;
+    background-color: #675db7 !important;
+}
+
+a.btn.btn-warning.waves-effect.waves-dark.text-black-50 {
+    font-size: 16px !important;
+}
+
+.dashboard .card
+{
+    height: 193px !important;
+}
